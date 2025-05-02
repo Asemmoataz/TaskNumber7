@@ -1,0 +1,234 @@
+*{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* the movements that i will do in Header */
+
+h1 {
+    color: rgb(102, 167, 105);
+    font-size: 38px;
+}
+ul,
+a {
+    list-style: none;
+    text-decoration: none;
+    color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: auto;
+    background-color: white;
+    margin: -8px;
+}
+ ul li a:hover{
+    color:  rgb(99, 201, 104);
+}
+/* to make space between icons */
+.zero{
+    width: 90px;
+    height: 10px;
+    justify-content: space-between;
+    display: flex;
+}
+.zero:hover{
+    cursor: pointer;
+}
+/* the movements that i will do in article one */
+.Number1 {
+    width: auto;
+    height: 500px;
+    background-color: #21b55eed;
+    color: rgb(197, 192, 192);
+    display: flex;
+    text-align: start;
+    justify-content: space-evenly;
+    align-items: center;
+    line-height: 8px;
+    margin: -8px;
+}
+.Number1 p:first-child {
+    color: rgb(224, 220, 220);
+    font-weight: bold;
+    font-size: 30px;
+}
+/* the movements that i will do in article two */
+.Number2 {
+    width: auto;
+    height: 500px;
+    background-color: white;
+    text-align: center;
+    margin: -40px;
+    line-height: 8px;
+     color: rgb(51, 51, 51)
+    
+}
+.Number2 p:first-child {
+    font-size: 40px;
+    color: rgba(48, 47, 47, 0.918);
+    font-weight: lighter;
+    padding: 120px;
+    margin-bottom: -100px;
+}
+.Number2 div {
+    display: inline-flex;
+    width: 200px;
+    height: 200px;
+    background-color: white;
+    font-size: 20px;
+    box-shadow: -3px 5px 9px 1px rgba(224, 224, 236, 0.712);
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    padding: 10px;
+    margin: 5px;
+}
+/* the movements that i will do in article three */
+.Number3 {
+    width: auto;
+    height: 410px;
+    background-color: rgb(235 235 235);
+    margin: -8px;
+    font-size: 18px;
+    line-height: 8px;
+    color: rgb(51, 51, 51);
+    text-align: center;
+}
+.Number3 p:first-child{
+        font-size: 40px;
+        color: rgba(48, 47, 47, 0.918);
+        font-weight: lighter;
+        padding: 120px;
+        margin-bottom: -100px;
+}
+.Number3 div img {
+    margin: 30px;
+}
+/* the movements that i will do in article four */
+.Number4{
+    width: auto;
+    background-color: rgb(38, 41, 49);
+    height: 672px;
+    margin: -8px;
+    display: grid;
+    grid-template-columns:  1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    line-height: 1px;
+}
+.Adress p:first-child{
+    color: rgb(78, 151, 78);
+    font-weight: bold;
+    font-size: 30px;
+}
+.Adress p:not(:first-child){
+    font-size: 17px;
+    color: rgb(160, 156, 156);
+    font-weight: lighter;
+}
+.Adress {
+    padding: 24px;
+    margin-right: -39px;
+    text-align: start;
+}
+.Number4 .Produts a:hover,
+.Number4 .further a:hover{
+    color:  rgb(78, 151, 78);
+}
+.Produts p{
+    color: rgb(160, 156, 156) ;
+    padding: 12px;
+    font-size: 30px;
+    text-align: start;
+}
+.Produts a{
+    background-color: rgb(38, 41, 49);
+    color:  rgb(160, 156, 156);
+    font-size: 17px;
+    justify-self: flex-start; 
+}
+.Produts::after{
+    content: "-" ;
+    color:  rgb(38, 41, 49);
+    font-size: 50px;
+    position: relative;
+    top: -413px;
+    left: -11px;
+}
+hr{
+    border-color: rgba(170, 170, 173, 0.322);
+    margin-right: 14px;
+}
+.further p{
+    color: rgb(160, 156, 156) ;
+    padding: 12px;
+    font-size: 30px;
+    text-align: start;
+}
+.further a{
+    background-color: rgb(38, 41, 49);
+    color:  rgb(160, 156, 156);
+    font-size: 17px;
+    justify-self: flex-start; 
+}
+.further::after{
+    content: "-" ;
+    color:  rgb(38, 41, 49);
+    font-size: 55px;
+    position: relative;
+    top: -234px;
+}
+.sub{
+    grid-column: 1/4;
+    padding: 30px;
+}
+.links {
+    width: 40px;
+    height: 40px;
+    background-color:  rgb(49, 49, 49) ;
+    border-radius: 50%;
+    border: 1px solid  rgba(170, 170, 173, 0.322) ;
+}
+.place   {
+    display: flex;
+    gap: 25px;
+    padding-top: 30px;  
+}
+input{
+    background-color:  rgb(38, 41, 49);
+    border: 1px solid  rgba(170, 170, 173, 0.322);
+    height: 33px;
+    padding: 10px;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+}
+form button {
+    color: white;
+    background-color:rgb(99, 201, 104);
+    border: none;
+    height: 33px;
+    position: absolute;
+    font-size: 15px;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
+form button:hover{
+    cursor: pointer;
+}
+form {
+position: relative;
+right: -1010px;
+top: -20px;
+}
+/* the movements that i will do in footer */
+footer{
+    width: auto;
+    height: 70px; 
+    background-color: rgb(23, 24, 29);
+    margin: -10px;
+    color: rgb(160, 156, 156);
+    padding: 21px;
+}
+footer u{
+    color: rgb(160, 156, 156);
+}

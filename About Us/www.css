@@ -59,7 +59,7 @@ a {
     height: 500px;
     background-color: white;
     text-align: center;
-    margin: -40px;
+    margin: 4px;
     line-height: 8px;
      color: rgb(51, 51, 51)
     
@@ -216,9 +216,10 @@ form button:hover{
     cursor: pointer;
 }
 form {
-position: relative;
-right: -1010px;
-top: -20px;
+    float: right;
+    right: 90px;
+    position: relative;
+    top: -22px;
 }
 /* the movements that i will do in footer */
 footer{

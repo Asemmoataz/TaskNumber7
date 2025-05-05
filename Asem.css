@@ -318,11 +318,17 @@ form button {
 form button:hover{
     cursor: pointer;
 }
-form {
+form{
+    float: right;
+    right: 90px;
+    position: relative;
+    top: -22px;
+}
+/* form {
 position: relative;
 right: -1010px;
 top: -20px;
-}
+} */
 /* the movements that i will do in footer */
 footer{
     width: auto;
